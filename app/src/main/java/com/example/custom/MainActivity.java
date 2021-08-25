@@ -95,6 +95,8 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(this, AboutActivity.class); break;
             case R.id.employees_button_main:
                 intent = new Intent(this, EmployeesActivity.class); break;
+            case R.id.employees_button_main1:
+                intent = new Intent(this, EmployeesActivity.class); break;
         }
         startActivity(intent);
     }
