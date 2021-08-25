@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/services_menu"
+        android:orderInCategory="1"
+        android:title="@string/services_button_main"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/contacts_menu"
+        android:orderInCategory="2"
+        android:title="@string/contacts_button_main"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/about_us_menu"
+        android:orderInCategory="3"
+        android:title="@string/about_us_button_main"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/specialists_menu"
+        android:orderInCategory="4"
+        android:title="@string/specialists_button_main"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/complaint_menu"
+        android:orderInCategory="5"
+        android:title="@string/complaint_menu"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/message_menu"
+        android:orderInCategory="6"
+        android:title="@string/send_message"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+    <include
+        layout="@layout/activity_logo_header" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="36dp"
+        android:textSize="24sp"
+        android:textColor="@color/blue"
+        android:text="@string/jurtex_nar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="@string/main_intro"/>
+
+    <Button
+        android:id="@+id/services_button_main"
+        android:layout_width="200dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickServices"
+        android:text="@string/services_button_main"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/contacts_button_main"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickServices"
+        android:text="@string/contacts_button_main"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/about_button_main"
+        android:onClick="onClickServices"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/about_us_button_main"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:onClick="onClickServices"
+        android:id="@+id/employees_button_main"
+        android:layout_height="wrap_content"
+        android:text="@string/specialists_button_main"
+        android:layout_gravity="center_horizontal"/>
+
+    <include
+        layout="@layout/activity_footer_text"/>
+
+</LinearLayout>
