@@ -64,14 +64,6 @@
         android:text="@string/specialists_button_main"
         android:layout_gravity="center_horizontal"/>
 
-    <Button
-        android:layout_width="200dp"
-        android:onClick="onClickServices"
-        android:id="@+id/employees_button_main1"
-        android:layout_height="wrap_content"
-        android:text="@string/specialists_button_main"
-        android:layout_gravity="center_horizontal"/>
-
     <include
         layout="@layout/activity_footer_text"/>
 
